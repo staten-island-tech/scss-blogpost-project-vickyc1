@@ -1,14 +1,15 @@
 @import "variable";
-/*
+
 * {
   border: 1px solid red;
 }
-*/
 
 html,
 body {
   margin: 0;
   font-family: $mainFont;
+  color: $text-primary-color;
+  background-color: $secondary-text-color;
 }
 
 .title {
@@ -34,6 +35,7 @@ body {
 
 .container-title {
   font-size: 1.5rem;
+  color: $light-primary-color;
 }
 
 img {
@@ -42,7 +44,8 @@ img {
 }
 
 .container-text {
-  font-size: auto;
+  font-size: 1.05rem;
+  line-height: 1.2rem;
 }
 
 a {
