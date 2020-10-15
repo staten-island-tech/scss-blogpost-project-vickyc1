@@ -12,6 +12,27 @@ body {
   background-color: #757575;
 }
 
+.heading ul {
+  list-style: none;
+  padding: 1rem 2rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.heading li {
+  display: inline;
+}
+
+.heading a {
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+li a:hover {
+  background-color: #0097a7;
+}
+
 .container {
   height: 90vh;
 }
@@ -20,7 +41,7 @@ body {
   text-align: center;
   font-size: 4rem;
   color: #b2ebf2;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   padding: 1rem;
   background-color: #b2ebf2;
   text-transform: uppercase;
@@ -64,6 +85,10 @@ img {
 }
 
 a {
+  text-decoration: none;
+}
+
+.container a {
   display: inline-block;
   text-decoration: none;
   border: 0.1rem solid black;
@@ -73,7 +98,7 @@ a {
   color: #ffffff;
 }
 
-a:hover {
+.container a:hover {
   background-color: #00bcd4;
   -webkit-transition: 1s;
   transition: 1s;

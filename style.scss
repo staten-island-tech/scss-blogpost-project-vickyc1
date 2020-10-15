@@ -13,6 +13,27 @@ body {
   background-color: $secondary-text-color;
 }
 
+.heading ul {
+  list-style: none;
+  padding: 1rem 2rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.heading li {
+  display: inline;
+}
+
+.heading a {
+  font-size: 2rem;
+  color: $text-primary-color;
+  padding: 1rem 2rem;
+}
+
+li a:hover {
+  background-color: $dark-primary-color;
+}
+
 .container {
   height: 90vh;
 }
@@ -21,7 +42,7 @@ body {
   text-align: center;
   font-size: 4rem;
   color: $light-primary-color;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   padding: 1rem;
   background-color: $light-primary-color;
   text-transform: uppercase;
@@ -62,6 +83,9 @@ img {
 }
 
 a {
+  text-decoration: none;
+}
+.container a {
   display: inline-block;
   text-decoration: none;
   border: 0.1rem solid black;
@@ -71,7 +95,7 @@ a {
   color: $text-primary-color;
 }
 
-a:hover {
+.container a:hover {
   background-color: $default-primary-color;
   transition: 1s;
 }
