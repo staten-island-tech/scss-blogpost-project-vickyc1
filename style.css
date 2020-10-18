@@ -12,24 +12,25 @@ body {
   background-color: #757575;
 }
 
-.heading ul {
-  list-style: none;
-  padding: 1rem 2rem;
-  width: 50%;
-  margin: 0 auto;
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.heading li {
-  display: inline;
+.li {
+  margin: 1rem 2rem;
+  font-size: 2rem;
 }
 
 .heading a {
-  font-size: 2rem;
   color: #ffffff;
-  padding: 1rem 2rem;
 }
 
-li a:hover {
+.heading-sub:hover {
   background-color: #0097a7;
 }
 
@@ -46,7 +47,13 @@ li a:hover {
   background-color: #b2ebf2;
   text-transform: uppercase;
   font-style: italic;
-  background-image: -webkit-gradient(linear, left top, right top, from(#b2ebf2), to(#0097a7));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#b2ebf2),
+    to(#0097a7)
+  );
   background-image: linear-gradient(to right, #b2ebf2, #0097a7);
 }
 
@@ -56,11 +63,11 @@ li a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container-main {

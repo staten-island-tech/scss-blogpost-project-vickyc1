@@ -4,7 +4,6 @@
   border: 1px solid red;
 }
 */
-
 html,
 body {
   margin: 0;
@@ -13,27 +12,23 @@ body {
   background-color: $secondary-text-color;
 }
 
-.heading ul {
-  list-style: none;
-  padding: 1rem 2rem;
-  width: 50%;
-  margin: 0 auto;
+.heading {
+  display: flex;
+  justify-content: center;
 }
 
-.heading li {
-  display: inline;
+.li {
+  margin: 1rem 2rem;
+  font-size: 2rem;
 }
 
 .heading a {
-  font-size: 2rem;
   color: $text-primary-color;
-  padding: 1rem 2rem;
 }
 
-li a:hover {
+.heading-sub:hover {
   background-color: $dark-primary-color;
 }
-
 .container {
   height: 90vh;
 }
