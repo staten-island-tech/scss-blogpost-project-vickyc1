@@ -57,10 +57,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0rem 1rem;
 }
 
 .container-main {
-  width: 33.333%;
+  width: 33.333vw;
   padding: 2rem;
 }
 
