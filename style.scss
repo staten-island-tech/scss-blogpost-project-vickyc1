@@ -1,9 +1,5 @@
 @import "variable";
-/*
-* {
-  border: 1px solid red;
-}
-*/
+
 html,
 body {
   margin: 0;
@@ -37,7 +33,7 @@ body {
   text-align: center;
   font-size: 4rem;
   color: $light-primary-color;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem 0rem 1rem;
   padding: 1rem;
   background-color: $light-primary-color;
   text-transform: uppercase;
@@ -57,7 +53,7 @@ body {
 }
 
 .container-main {
-  width: 33.333vw;
+  width: 33.333%;
   padding: 2rem;
 }
 
@@ -80,6 +76,7 @@ img {
 a {
   text-decoration: none;
 }
+
 .container a {
   display: inline-block;
   border: 0.1rem solid black;
