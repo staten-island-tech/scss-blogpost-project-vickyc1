@@ -57,7 +57,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0rem 1rem;
+  margin: 0 2rem;
 }
 
 .container-main {
